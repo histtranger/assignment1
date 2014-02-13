@@ -30,6 +30,11 @@ img {
 body {
     margin: 0;
     padding: 0;
+    background-color: #000029
+}
+
+p {
+    color: #C2E0FF
 }
 
 .masshead {
@@ -47,13 +52,13 @@ body {
 }
 
 h1 {
-    color: white
+    color: #78AFE6
 }
-.ashe {
-    overflow: hidden;
-    background-image: url(/Users/jordana/Desktop/Interaction%20Design%201/github/assignment1/images/ashe.jpg);
-    background-color: white;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 30rem
+
+ul li:first-child {
+    list-style-image:url(../images/q.png);
+    margin: 1.5rem 1.5rem 1.5rem 1.5rem;
+    font-size: 1.25rem;
+    color: #C2E0FF
+}
 }
