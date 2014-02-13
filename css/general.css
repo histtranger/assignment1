@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    
+    font-size: 100%;
+    font-family: Helvetica, Arial, Sans-serif
+}
+
+img {
+	width: 100%;
+    display: block;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.masshead {
+    background-color: black;
+    overflow:hidden
+}
+
+.logo {height: 4.5rem;
+        width: auto;
+        margin: 0.5rem 5%;
+        
+    /* display: block is how to center. float is to align things*/
+        display:block;
+        margin: .5rem auto
+}
+
+h1 {
+    color: white
+}
+.ashe {
+    overflow: hidden;
+    background-image: url(/Users/jordana/Desktop/Interaction%20Design%201/github/assignment1/images/ashe.jpg);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 30rem
+}
