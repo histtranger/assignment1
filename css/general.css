@@ -33,32 +33,72 @@ body {
     background-color: #000029
 }
 
+a {
+    color:#CCFFFF;
+    width: auto;
+    margin:.5rem 0 ;
+    padding: 1rem .7rem;
+    background-color: #003366
+}
+
 p {
-    color: #C2E0FF
+    color: #C2E0FF;
+    margin: 1.2rem
 }
 
 .masshead {
     background-color: black;
-    overflow:hidden
 }
 
 .logo {height: 4.5rem;
         width: auto;
         margin: 0.5rem 5%;
-        
-    /* display: block is how to center. float is to align things*/
         display:block;
         margin: .5rem auto
 }
 
 h1 {
-    color: #78AFE6
+    color: #99FFFF;
+    margin: 1.2rem;
+    background-color: #003399
 }
 
-ul li:first-child {
-    list-style-image:url(../images/q.png);
-    margin: 1.5rem 1.5rem 1.5rem 1.5rem;
-    font-size: 1.25rem;
+.firstpara {
+    margin: 1.5rem;
+    color:#C2E0FF;
+    font-family: Times, serif;
+    font-size: 1.05rem
+}
+
+h2 {
+    margin: 1.5rem;
+    color: #99FFFF;
+    font-family: Times, serif;
+    background-color:#003366;
+}
+
+ul {
     color: #C2E0FF
 }
+
+ul img {
+    margin: 0.2rem 1rem .5rem -2rem;
+    height:4rem;
+    width:auto;
+    float: left;
 }
+
+ul {
+    margin: 1rem;
+    font-size: 0.85rem;
+    color: #C2E0FF;
+    list-style: none;
+    float: right
+}
+
+
+
+
+
+
+
