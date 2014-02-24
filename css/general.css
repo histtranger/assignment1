@@ -33,12 +33,15 @@ body {
     background-color: #000029
 }
 
+hr {
+    color: #FFF;
+}
+
 a {
     color:#CCFFFF;
-    width: auto;
-    margin:.5rem 0 ;
-    padding: 1rem .7rem;
-    background-color: #003366
+    margin: .5rem .2rem;
+    padding: 1rem .5rem;
+    background-color: #003366; 
 }
 
 p {
@@ -58,9 +61,19 @@ p {
 }
 
 h1 {
-    color: #99FFFF;
-    margin: 1.2rem;
-    background-color: #003399
+    color: #FFF;
+    margin: 1rem 5%;
+    font-size: 3rem;
+    font-family: Times;
+    font-weight: 400;
+}
+
+h1 img {
+    margin: 1rem 0;
+    height:2rem;
+    width:auto;
+    display:inline;
+    float:left
 }
 
 .firstpara {
@@ -71,30 +84,130 @@ h1 {
 }
 
 h2 {
-    margin: 1.5rem;
-    color: #99FFFF;
-    font-family: Times, serif;
+    margin: 1.5rem 6rem;
+    color: #FFF;
+    font-family: helvetica, sans-serif;
     background-color:#003366;
+    padding:.2rem 10%;
+    font-weight: 400
 }
 
-ul {
+ul li {
+    margin: .5rem 3rem;
+    font-size: .85rem;
+    color: #C2E0FF;
+    list-style:none;
+}
+
+li img {
+    margin: .5rem;
+    height: 4rem;
+    width: auto;
+    float:left
+}
+
+ul hr {
+    width: 15rem;
+    color: #FFF
+}
+
+details {
+    color: #FFF;
+    margin: 1.5rem 6rem;
+    list-style-image:url(../images/snowflake.png)
+}
+
+.img {
+    margin: 1rem -.5rem;
+    height: 13rem;
+    width: auto
+}
+
+.snowflak {
+    height: 1rem;
+    width: auto;
+    display:inline;
+    margin:.5rem 0 0 5rem
+}
+
+.snerflak {
+    height: 1.5rem;
+    width:auto;
+    display:block;
+    margin: .1rem 11rem
+}
+
+blockquote {
+    margin: -1rem;
+    padding: 1rem 2rem 1rem 15%;
+}
+
+blockquote p {
+    color: #fff;
+    font-size: .85rem;
+}
+
+blockquote span {
+    font-weight: bold;
+    float:right;
+    margin: .5rem 1rem;
+    font-size: .75rem
+}
+
+blockquote p:before {
+    content:"“";
+    font-size:2.5rem;
+    float:left;
+    margin: -0.5rem .5rem 0 -.5rem;
     color: #C2E0FF
 }
 
-ul img {
-    margin: 0.2rem 1rem .5rem -2rem;
-    height:4rem;
-    width:auto;
-    float: left;
+blockquote p:after {
+    content: "”";
+    font-size:2.5rem;
+    position:absolute;
+    margin: -.5rem .5rem;
+    color: #C2E0FF
 }
 
-ul {
-    margin: 1rem;
-    font-size: 0.85rem;
-    color: #C2E0FF;
-    list-style: none;
-    float: right
+ol li:first-child {
+    color: #fff;
+    list-style:none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 3rem
 }
+ol li {
+    color: #C2E0FF;
+    list-style-image:url(../images/smaller.png);
+    font-size: .9rem;
+    margin: .5rem 5rem
+}
+
+li a {
+    color:#CCFFFF;
+    background-color: #000029; 
+}
+
+footer {
+    background-color: black;
+    overflow:hidden;
+    font-size: .75rem
+}
+
+footer img {
+    height: 2.5rem;
+    width: auto;
+    float: right;
+    margin: 0 1rem 0 2rem
+}
+
+footer a {
+    background-color: black;
+    font-size: .75rem
+}
+    
+
 
 
 
